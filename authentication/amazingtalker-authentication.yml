@@ -1,0 +1,9 @@
+generated: '2026-07-17'
+method: searched
+source: https://en.amazingtalker.com/.well-known/ai-plugin.json
+summary:
+  types: [none]
+  note: >-
+    Public API. The ai-plugin manifest declares auth type "none" and the
+    OpenAPI defines no securitySchemes; findTeachers requires no credentials.
+schemes: []
