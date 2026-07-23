@@ -1,0 +1,16 @@
+# AmazingTalker
+
+> AmazingTalker is an online tutoring marketplace (founded 2016, Taipei) connecting students with vetted professional tutors for personalized 1-on-1 lessons in 60+ languages plus academic, music, and lifestyle subjects. It publicly exposes a ChatGPT-plugin OpenAPI for finding tutors.
+
+## APIs
+- [Find Tutors plugin OpenAPI](https://en.amazingtalker.com/.well-known/openapi.yaml): OpenAPI 3.0.1, one public no-auth operation (findTeachers) that returns tutors for a subject with price/tag/language/location filters.
+
+## Specs
+- [OpenAPI (captured)](https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/openapi/amazingtalker-find-tutors-openapi.yml)
+- [ai-plugin manifest](https://en.amazingtalker.com/.well-known/ai-plugin.json)
+
+## Docs
+- [AmazingTalker home](https://en.amazingtalker.com/)
+- [Blog](https://en.amazingtalker.com/blog)
+- [Privacy & Terms](https://en.amazingtalker.com/privacy-and-terms)
+- [GitHub organization](https://github.com/AmazingTalker)

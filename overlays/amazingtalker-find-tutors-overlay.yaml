@@ -1,0 +1,22 @@
+overlay: 1.0.0
+info:
+  title: API Evangelist enhancements for AmazingTalker Find Tutors
+  version: 1.0.0
+extends: openapi/amazingtalker-find-tutors-openapi.yml
+actions:
+- target: $.info
+  update:
+    x-apievangelist-enriched: '2026-07-17'
+    x-apievangelist-source: https://en.amazingtalker.com/.well-known/openapi.yaml
+    x-authentication: none
+- target: $.info
+  update:
+    contact:
+      name: AmazingTalker
+      email: amazingtalker@amazingtalker.com
+      url: https://en.amazingtalker.com
+- target: $.paths['/v1/pages/teachers'].get
+  update:
+    tags:
+    - Teachers
+    x-idempotent: true

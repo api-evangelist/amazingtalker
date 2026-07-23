@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://en.amazingtalker.com/.well-known/*
+host: https://en.amazingtalker.com
+documents:
+- path: /.well-known/ai-plugin.json
+  status: 200
+  file: amazingtalker-ai-plugin.json
+  note: ChatGPT-plugin manifest (schema_version v1, auth none) pointing at the OpenAPI below
+- path: /.well-known/openapi.yaml
+  status: 200
+  note: OpenAPI 3.0.1 for the Find Tutors plugin; captured verbatim at openapi/amazingtalker-find-tutors-openapi.yml
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403

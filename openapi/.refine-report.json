@@ -1,0 +1,14 @@
+{
+  "provider": "amazingtalker",
+  "sources": [
+    "amazingtalker-pages-api-openapi.yml"
+  ],
+  "outputs": [
+    "amazingtalker-pages-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: derived
+source: openapi/amazingtalker-find-tutors-openapi.yml
+entities:
+- name: Teacher
+  source_operation: findTeachers
+  fields:
+  - {name: teacher_name, type: string}
+  - {name: short_description, type: string}
+  - {name: image_url, type: string}
+  - {name: introduction_video_url, type: string}
+  - {name: course_url, type: string}
+  - {name: avg_rating, type: number}
+  - {name: trial_dollar, type: integer}
+  - {name: private_dollar, type: integer}
+relationships: []
+note: >-
+  Single response entity (Teacher) returned as an array by findTeachers. No
+  id-reference fields or $ref links are present, so no relationships are derivable.

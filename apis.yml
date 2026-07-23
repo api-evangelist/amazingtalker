@@ -1,8 +1,28 @@
 aid: amazingtalker
 name: AmazingTalker
-description: AmazingTalker is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AmazingTalker is an online tutoring marketplace, founded in 2016 and
+  headquartered in Taipei, that connects students with vetted professional
+  tutors for personalized 1-on-1 lessons in more than 60 languages plus
+  academic, music, and lifestyle subjects. Learners browse tutor profiles,
+  compare pricing and ratings, book trial and formal lessons on a flexible
+  pay-as-you-go basis, and meet over Zoom. AmazingTalker publicly exposes a
+  ChatGPT-plugin OpenAPI (findTeachers) that returns bookable tutors for a
+  subject with price, learning-need, auxiliary-language, and location filters.
 url: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://en.amazingtalker.com/.well-known/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,12 +34,57 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-apis: []
+- Education
+- Tutoring
+- Language Learning
+- Marketplace
+- EdTech
+- ChatGPT Plugin
+apis:
+- aid: amazingtalker:amazingtalker-pages-api
+  name: AmazingTalker Pages API
+  description: The Pages API from AmazingTalker — 1 operation(s) for pages.
+  humanURL: https://en.amazingtalker.com/
+  baseURL: https://en.amazingtalker.com
+  tags:
+  - Pages
+  properties:
+  - type: OpenAPI
+    url: openapi/amazingtalker-pages-api-openapi.yml
+  - type: DataModel
+    url: data-model/amazingtalker-data-model.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: WellKnown
+  url: well-known/amazingtalker-well-known.yml
+- type: MCPServer
+  url: mcp/amazingtalker-mcp.yml
+- type: LLMsTxt
+  url: llms/amazingtalker-llms.txt
+- type: Authentication
+  url: authentication/amazingtalker-authentication.yml
+- type: Conformance
+  url: conformance/amazingtalker-conformance.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: DomainSecurity
+  url: security/amazingtalker-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/AmazingTalker
+- type: Blog
+  url: https://en.amazingtalker.com/blog
+- type: TermsOfService
+  url: https://en.amazingtalker.com/privacy-and-terms
+- type: PrivacyPolicy
+  url: https://en.amazingtalker.com/privacy-and-terms
 - type: Website
   url: https://en.amazingtalker.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

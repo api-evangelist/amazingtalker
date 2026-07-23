@@ -1,0 +1,17 @@
+generated: '2026-07-17'
+method: derived
+status: candidate
+source: openapi/amazingtalker-find-tutors-openapi.yml
+note: >-
+  AmazingTalker publishes a ChatGPT-plugin OpenAPI but no official hosted MCP
+  server was found. This is a derived candidate tool list, one tool per
+  OpenAPI operation, for a potential MCP wrapper.
+server:
+  name: amazingtalker
+  transport: http
+tools:
+- name: find_teachers
+  description: >-
+    Find AmazingTalker tutors for a subject, with optional filters for price
+    preference, learning need tags, auxiliary language, and teacher location.
+  source_operation: openapi/amazingtalker-find-tutors-openapi.yml#findTeachers

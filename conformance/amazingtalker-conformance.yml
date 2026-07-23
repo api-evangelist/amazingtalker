@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: derived
+source: openapi/amazingtalker-find-tutors-openapi.yml
+standards:
+- id: openapi-3.0
+  conforms: true
+  evidence: openapi 3.0.1 document published at /.well-known/openapi.yaml
+- id: openai-chatgpt-plugin
+  conforms: true
+  evidence: /.well-known/ai-plugin.json manifest (schema_version v1)
+- id: oauth2
+  conforms: false
+  evidence: no securitySchemes; API is public (auth type none)
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: only a 200 response is defined; no application/problem+json
+- id: iso3166-1-alpha-2
+  conforms: true
+  evidence: teacher_location parameter uses ISO 3166-1 alpha-2 country codes
