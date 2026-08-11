@@ -59,6 +59,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Overlay
+  url: overlays/amazingtalker-find-tutors-overlay.yaml
 - type: WellKnown
   url: well-known/amazingtalker-well-known.yml
 - type: MCPServer
