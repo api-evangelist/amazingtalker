@@ -1,0 +1,67 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Find tutors plugin Pages API",
+    "version": "v1"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Pages",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get the list of teachers, dirctly show teacher image user can see",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://en.amazingtalker.com/v1/pages/teachers",
+            "params": [
+              {
+                "name": "teach_subject",
+                "value": "",
+                "type": "query",
+                "description": "The subject the teacher teaches, only English alphabets are accepted, e.g. english, math."
+              },
+              {
+                "name": "price_preference",
+                "value": "",
+                "type": "query",
+                "description": "The user's course price preference, in order 0~10, 11~15, 16~20, 21~25, 26~30, 30+"
+              },
+              {
+                "name": "tag_url_name",
+                "value": "",
+                "type": "query",
+                "description": "Learning needs, only English alphabets are accepted, e.g. certification, conversation"
+              },
+              {
+                "name": "auxiliary_language",
+                "value": "",
+                "type": "query",
+                "description": "Language a student would like to use in class besides the language being taught if it is a language lesson. Only English alphabets are accepted, e.g. english, chinese, japanese."
+              },
+              {
+                "name": "teacher_location",
+                "value": "",
+                "type": "query",
+                "description": "The user's preference for the teacher's nationality, indicated by a 2-letter country code (ISO 3166-1 alpha-2), e.g. TW for Taiwan, US for United States."
+              },
+              {
+                "name": "other",
+                "value": "",
+                "type": "query",
+                "description": "For searches not covered by the other options, use the 'other' parameter to input any string you wish to search for."
+              }
+            ]
+          },
+          "docs": "Get the list of teachers, dirctly show teacher image user can see"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

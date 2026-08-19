@@ -1,0 +1,165 @@
+{
+  "item": [
+    {
+      "id": "13573253-f44d-4ce8-a4dd-3eb9e1a54bfb",
+      "name": "Pages",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "9b8c6521-7bb3-4894-9d52-027bb66864ad",
+          "name": "Get the list of teachers, dirctly show teacher image user can see",
+          "request": {
+            "name": "Get the list of teachers, dirctly show teacher image user can see",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "pages",
+                "teachers"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "teach_subject",
+                  "value": "<string>",
+                  "description": "(Required) The subject the teacher teaches, only English alphabets are accepted, e.g. english, math."
+                },
+                {
+                  "disabled": false,
+                  "key": "price_preference",
+                  "value": "<string>",
+                  "description": "The user's course price preference, in order 0~10, 11~15, 16~20, 21~25, 26~30, 30+"
+                },
+                {
+                  "disabled": false,
+                  "key": "tag_url_name",
+                  "value": "<string>",
+                  "description": "Learning needs, only English alphabets are accepted, e.g. certification, conversation"
+                },
+                {
+                  "disabled": false,
+                  "key": "auxiliary_language",
+                  "value": "<string>",
+                  "description": "Language a student would like to use in class besides the language being taught if it is a language lesson. Only English alphabets are accepted, e.g. english, chinese, japanese."
+                },
+                {
+                  "disabled": false,
+                  "key": "teacher_location",
+                  "value": "<string>",
+                  "description": "The user's preference for the teacher's nationality, indicated by a 2-letter country code (ISO 3166-1 alpha-2), e.g. TW for Taiwan, US for United States."
+                },
+                {
+                  "disabled": false,
+                  "key": "other",
+                  "value": "<string>",
+                  "description": "For searches not covered by the other options, use the 'other' parameter to input any string you wish to search for."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "ead22ae1-e237-4187-a20d-4e7d31a9fa98",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "pages",
+                    "teachers"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "teach_subject",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "price_preference",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "tag_url_name",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "auxiliary_language",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "teacher_location",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "other",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"teacher_name\": \"string\",\n    \"short_description\": \"string\",\n    \"image_url\": \"string\",\n    \"introduction_video_url\": \"string\",\n    \"course_url\": \"string\",\n    \"avg_rating\": 9125.781682773288,\n    \"trial_dollar\": 3374,\n    \"private_dollar\": 3919\n  },\n  {\n    \"teacher_name\": \"string\",\n    \"short_description\": \"string\",\n    \"image_url\": \"string\",\n    \"introduction_video_url\": \"string\",\n    \"course_url\": \"string\",\n    \"avg_rating\": 4724.816490708017,\n    \"trial_dollar\": 6715,\n    \"private_dollar\": 1470\n  }\n]",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://en.amazingtalker.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "a7d34006-9b71-412c-934b-406562b5e10d",
+    "name": "Find tutors plugin Pages API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "A plugin that improve your learning journey with personalized 1-on-1 online tutoring sessions from AmazingTalker's expert tutors across the globe. Explore a wealth of courses and resources designed to elevate your learning experience at any level.",
+      "type": "text/plain"
+    }
+  }
+}
