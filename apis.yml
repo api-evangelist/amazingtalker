@@ -51,6 +51,14 @@ tags:
 - Language Learning
 - Marketplace
 - EdTech
+- Chat Gpt Plugin
+tags_raw:
+- Company
+- Education
+- Tutoring
+- Language Learning
+- Marketplace
+- EdTech
 - ChatGPT Plugin
 apis:
 - aid: amazingtalker:amazingtalker-pages-api
