@@ -1,4 +1,4 @@
-openapi: 3.0.1
+openapi: 3.2.0
 info:
   title: Find tutors plugin Pages API
   description: A plugin that improve your learning journey with personalized 1-on-1 online tutoring sessions from AmazingTalker's expert tutors across the globe. Explore a wealth of courses and resources designed to elevate your learning experience at any level.
