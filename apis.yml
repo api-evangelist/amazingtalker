@@ -65,7 +65,6 @@ apis:
   name: AmazingTalker Pages API
   description: The Pages API from AmazingTalker — 1 operation(s) for pages.
   humanURL: https://en.amazingtalker.com/
-  baseURL: https://en.amazingtalker.com
   tags:
   - Pages
   properties:
