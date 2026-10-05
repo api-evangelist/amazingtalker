@@ -1,0 +1,12 @@
+{
+ "url": "https://en.amazingtalker.com/.well-known/openapi.yaml",
+ "requested_url": "https://en.amazingtalker.com/.well-known/openapi.yaml",
+ "status": 200,
+ "content_type": "binary/octet-stream",
+ "bytes": 3619,
+ "sha256": "408b09f369a97fa908ad35fb8c32957b1cef3ce0b31ff5c5dc20ad5f15d8a9cc",
+ "fetched_at": "2026-10-04",
+ "fetched_by": "APIEvangelist-Harvest/1.0 (+https://apievangelist.com)",
+ "match": "byte-identical",
+ "note": "Re-fetched from the provider by verify-openapi-sources.py; the archived file is byte-identical to what the provider serves."
+}
