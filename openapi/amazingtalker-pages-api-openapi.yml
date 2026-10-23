@@ -96,3 +96,9 @@ paths:
                       description: The price of the teacher's formal course.
       tags:
       - Pages
+x-provenance:
+  method: harvested
+  publisher: AmazingTalker
+  source: https://en.amazingtalker.com/.well-known/openapi.yaml
+  note: split by refine-openapis from the provider's own published document, verified by fetch (openapi/_original/*.fetch.json);
+    stamped by stamp-openapi-provenance.py (roadmap#793)
