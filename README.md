@@ -64,6 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AmazingTalker is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+AmazingTalker is an online tutoring marketplace, founded in 2016 and headquartered in Taipei, that connects students with vetted professional tutors for personalized 1-on-1 lessons in more than 60 languages plus academic, music, and lifestyle subjects. Learners browse tutor profiles, compare pricing and ratings, book trial and formal lessons on a flexible pay-as-you-go basis, and meet over Zoom. AmazingTalker publicly exposes a ChatGPT-plugin OpenAPI (findTeachers) that returns bookable tutors for a subject with price, learning-need, auxiliary-language, and location filters.
 
-Backed by: 500-global — https://en.amazingtalker.com
+**Areas:** Company · Education · Tutoring · Language Learning · Marketplace · EdTech · Chat Gpt Plugin
+
+## AmazingTalker on APIs.io
+
+Everything profiled for AmazingTalker is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazingtalker/](https://apis.io/providers/amazingtalker/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [AmazingTalker Pages API](https://apis.io/apis/amazingtalker/amazingtalker-pages-api/) — The Pages API from AmazingTalker — 1 operation(s) for pages.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [amazingtalker](https://apis.io/servers/amazingtalker/amazingtalker/)
+
+#### Collections (1)
+
+Postman and Open Collection request collections.
+
+- [Find tutors plugin Pages API](https://apis.io/collections/amazingtalker/open-amazingtalker-pages-api/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Amazingtalker Find Tutors Overlay](https://apis.io/overlays/amazingtalker/amazingtalker-find-tutors-overlay/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazingtalker Authentication](https://apis.io/security/amazingtalker/amazingtalker-authentication/)
+- [Amazingtalker Domain Security](https://apis.io/security/amazingtalker/amazingtalker-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://en.amazingtalker.com)
+- [Blog](https://en.amazingtalker.com/blog)
+- [Terms of service](https://en.amazingtalker.com/privacy-and-terms)
+- [Privacy policy](https://en.amazingtalker.com/privacy-and-terms)
+- [GitHub](https://github.com/AmazingTalker)
+
+## API Evangelist rating
+
+**Kin Score 32.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 37.3 |
+| Contract governance | 4.5 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 16.1 |
+| Access clarity | 57.1 |
+
+**Agent readiness 19.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazingtalker/](https://apis.io/providers/amazingtalker/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AmazingTalker: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazingtalker/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
